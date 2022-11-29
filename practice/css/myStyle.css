@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Roboto+Mono:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Inter&family=Roboto+Mono:ital,wght@1,500&display=swap');
+main{
+	height: 100%;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+} 
+.practice_1{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+.poolCard{
+	margin-top: 20px;
+	margin-left: 20px;
+	height: 290px;
+	width: 392px;
+	background-color: #018ABE;
+	border-radius: 10px;
+}
+@media (min-width: 1300px){
+	.practice_1{
+		width: 1300px;
+		margin: 0 auto;
+	}
+}
+.poolCard h1{
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 35px;
+	margin-left: 45px;
+	font-family: 'El Messiri', sans-serif;
+	color: white;
+}
+.poolCard li {
+	margin-top: 20px;
+	font-size: 14px;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	color: white;
+}
+.poolCard img{
+	margin-right: 20px;
+}
+.poolCard ul{
+	margin-left: 45px;
+}
+.mrg{
+	margin-top: 30px;
+	width: 175px;
+	border: 1px solid white;
+	border-radius: 3px;
+	margin-left: 45px;
+	font-size: 14px;
+	padding: 9px 15px;
+	font-family: 'Inter', sans-serif;
+	background-color: white;
+}
+.mrg a{
+	color: #018ABE;
+}
