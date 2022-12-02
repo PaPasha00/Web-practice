@@ -1,0 +1,121 @@
+main{
+	height: 100%;
+	width: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+a{
+	text-decoration: none;
+} 
+.practice_2{
+	height: 150%;
+}
+.container{
+	margin: auto auto;
+	width: 100%;
+	display: grid;
+	height: 100vh;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+  	grid-template-rows: 1fr 1fr 1fr;
+}
+@media (min-width: 1112px){
+	.container{
+	height: 100vh;
+	width: 1112px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+  	grid-template-rows: 1fr 1fr 1fr;
+	text-align: center;
+}
+}
+.item{
+	margin: 5px 5px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.item p{
+	font-size: 48px;
+	color: white;
+	font-weight: 400;
+	font-family: 'Poiret One', cursive;
+}
+.web{
+	background: url(../img/webs.png)  center/ cover no-repeat;
+	grid-column: 1/1;
+	grid-row: 1/1;
+}
+.lessons{
+	background: url(../img/less.png)  center/ cover no-repeat;
+	grid-column: 2/4;
+	grid-row: 1/3;
+}
+.team{
+	background: url(../img/team.png)  center/ cover no-repeat;
+	grid-column: 1/1;
+	grid-row: 2/4;
+}
+.words{
+	background: url(../img/words.png)  center/ cover no-repeat;
+	grid-column: 4/4;
+	grid-row: 1/3;
+}
+.projects{
+	background: url(../img/project.png)  center/ cover no-repeat;
+	grid-column: 2/4;
+	grid-row: 3/4;
+}
+.massage{
+	background: url(../img/Rectangle%207.png) center/ cover no-repeat;
+	grid-column: 4/4;
+	grid-row: 3/3;
+}
+@media (max-width: 700px){
+	.container{
+		height: 100vh;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		
+	}
+	.item{
+		margin: 3px 3px;
+		display: flex;
+		justify-content: center;
+  align-items: center;
+	}
+	.item p{
+		font-size: 24px;
+		color: white;
+		font-family: 'Poiret One', cursive;
+	}
+	.web{
+		background: url(../img/webs.png)  center/ cover no-repeat;
+		grid-column: 1/1;
+		grid-row: 1/1;
+	}
+	.lessons{
+		background: url(../img/less.png)  center/ cover no-repeat;
+		grid-column: 2/2;
+		grid-row: 1/3;
+	}
+	.team{
+		background: url(../img/team.png)  center/ cover no-repeat;
+		grid-column: 1/1;
+		grid-row: 2/4;
+	}
+	.words{
+		background: url(../img/words.png)  center/ cover no-repeat;
+		grid-column: 1/1;
+		grid-row: 4/4;
+	}
+	.projects{
+		background: url(../img/project.png)  center/ cover no-repeat;
+		grid-column: 2/2;
+		grid-row: 3/3;
+	}
+	.massage{
+		background: url(../img/Rectangle%207.png) center/ cover no-repeat;
+		grid-column: 2/2;
+		grid-row: 4/4;
+	}
+}
